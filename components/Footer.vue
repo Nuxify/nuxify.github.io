@@ -66,15 +66,9 @@ export default {
       to: 'nuxify.dev@gmail.com',
       from: '',
       name: '',
-      message: ''
+      message: '',
+      email: ''
     }
-  },
-  methods: {
-    // alertUser() {
-    //   alert(
-    //     'This function is still WIP.\nPlease e-mail nuxify.dev@gmail.com directly through your email client.'
-    //   )
-    // }
   }
 }
 </script>
