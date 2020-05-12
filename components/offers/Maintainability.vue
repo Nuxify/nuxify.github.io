@@ -25,7 +25,7 @@
               <v-row no-gutters class="pt-5">
                 <ul class="mr-10">
                   <li>Go</li>
-                  <li>Type Script</li>
+                  <li>TypeScript</li>
                   <li>JavaScript</li>
                   <li>NuxtJS</li>
                   <li>VueJS</li>
