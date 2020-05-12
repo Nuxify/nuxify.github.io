@@ -15,9 +15,6 @@
         We are a team of startups-loving individuals eager to help you craft
         your product from ideas to realizations.
         <div class="mt-8"></div>
-        <span class="innerHeader__why--text"
-          >Why <span class="nuxify--text">Nuxify.dev</span>?</span
-        >
       </span>
       <div class="d-block mt-8 innerHeader__scroll">
         <div class="d-inline mx-auto nuxify--text">

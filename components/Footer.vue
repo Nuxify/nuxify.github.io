@@ -4,13 +4,12 @@
       <v-row no-gutters>
         <v-col cols="4" md="4" lg="4" class="white--text">
           <img src="/landing/nuxify.dev.png" class="nuxify--logo" />
-          <span class="d-block touch__title">Get in-touch</span>
+          <span class="d-block touch__title">Get in touch</span>
           <span class="d-block"
             ><v-icon color="white">mdi-email</v-icon> nuxify.dev@gmail.com</span
           >
           <span class="d-block mt-2"
-            ><v-icon color="white">mdi-github</v-icon>
-            github.com/Nuxify-dev</span
+            ><v-icon color="white">mdi-github</v-icon> github.com/Nuxify</span
           >
         </v-col>
         <v-col cols="8" md="8" lg="8" class="white--text">
@@ -69,6 +68,13 @@ export default {
       name: '',
       message: ''
     }
+  },
+  methods: {
+    // alertUser() {
+    //   alert(
+    //     'This function is still WIP.\nPlease e-mail nuxify.dev@gmail.com directly through your email client.'
+    //   )
+    // }
   }
 }
 </script>

@@ -20,6 +20,12 @@
       >
         <span>Our Works</span>
       </v-btn>
+      <v-btn text class="text-capitalize font-weight-medium subtitle-1">
+        <span>Why Nuxify</span>
+      </v-btn>
+      <v-btn text class="text-capitalize font-weight-medium subtitle-1">
+        <span>Projects Demo</span>
+      </v-btn>
       <v-btn
         to="#Message-Us"
         text
