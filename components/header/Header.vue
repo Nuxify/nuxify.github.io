@@ -7,10 +7,10 @@
         <span>Home</span>
       </v-btn>
       <v-btn text class="text-capitalize font-weight-medium subtitle-1">
-        <span>Services</span>
+        <span>Why Nuxify</span>
       </v-btn>
       <v-btn text class="text-capitalize font-weight-medium subtitle-1">
-        <span>Our Works</span>
+        <span>Projects Demo</span>
       </v-btn>
       <v-btn text class="text-capitalize font-weight-medium subtitle-1">
         <span>Contact Us</span>
