@@ -4,6 +4,7 @@
       class="mx-auto d-block text-center font-weight-bold innerHeader__tagline--text"
     >
       Writing Software<br />Like It's Ours
+      <div class="innerHeader__tagline--keyup ml-n5 d-inline">|</div>
     </div>
     <div class="mt-5 mx-auto d-block text-center innerHeader__paragraph--text">
       <span>
@@ -20,7 +21,9 @@
         <div class="d-inline mx-auto nuxify--text">
           <span class="innerHeader__scroll--text">Scroll to proceed</span>
           <br />
-          <v-icon color="nuxify">mdi-chevron-down</v-icon>
+          <v-icon color="nuxify" large class="scroll__chevron"
+            >mdi-chevron-down</v-icon
+          >
         </div>
       </div>
     </div>
@@ -59,5 +62,36 @@ export default {}
 #app .innerHeader__scroll {
   z-index: 2;
   position: relative;
+}
+.scroll__chevron {
+  animation: slide 1s ease-in-out infinite;
+  margin-left: 9px;
+}
+
+@keyframes slide {
+  0%,
+  100% {
+    transform: translate(0, 0);
+  }
+
+  50% {
+    transform: translate(0, 8px);
+  }
+}
+.innerHeader__tagline--keyup {
+  font-weight: 400;
+  animation: fade 1s ease-in-out infinite;
+  margin-left: 9px;
+}
+
+@keyframes fade {
+  0%,
+  100% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
 }
 </style>

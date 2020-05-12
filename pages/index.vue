@@ -10,6 +10,7 @@
     <Modern />
     <Works />
     <Team />
+    <Footer />
   </div>
 </template>
 
@@ -17,6 +18,7 @@
 import { Header, InnerHeader } from '~/components/header'
 import { Maintainability, Modern, Works } from '~/components/offers'
 import { Team } from '~/components/team'
+import { Footer } from '~/components'
 
 export default {
   components: {
@@ -25,7 +27,8 @@ export default {
     Maintainability,
     Modern,
     Works,
-    Team
+    Team,
+    Footer
   }
 }
 </script>
