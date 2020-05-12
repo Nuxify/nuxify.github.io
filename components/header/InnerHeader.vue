@@ -4,7 +4,7 @@
       class="mx-auto d-block text-center font-weight-bold innerHeader__tagline--text"
     >
       Writing Software<br />Like It's Ours<span
-        class="nuxify--text font-weight-regular"
+        class="blink--text font-weight-regular"
         >|</span
       >
     </div>
@@ -62,5 +62,25 @@ export default {}
 #app .innerHeader__scroll {
   z-index: 2;
   position: relative;
+}
+.blink--text {
+  animation: blinkingText 1.2s infinite;
+}
+@keyframes blinkingText {
+  0% {
+    color: #ed1967;
+  }
+  49% {
+    color: #ed1967;
+  }
+  60% {
+    color: transparent;
+  }
+  99% {
+    color: transparent;
+  }
+  100% {
+    color: #ed1967;
+  }
 }
 </style>
