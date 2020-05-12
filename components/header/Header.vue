@@ -1,7 +1,9 @@
 <template>
   <v-app-bar color="white" flat hide-on-scroll app>
     <v-row class="pa-10 mx-10" no-gutters>
-      <img src="/landing/nuxify.dev.png" class="nuxify--logo" />
+      <a href="/">
+        <img src="/landing/nuxify.dev.png" class="nuxify--logo" />
+      </a>
       <v-spacer />
       <v-btn to="/" text class="text-capitalize font-weight-medium subtitle-1">
         <span>Home</span>

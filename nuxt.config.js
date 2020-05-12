@@ -20,7 +20,7 @@ export default {
       }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'icon', type: 'image/x-icon', href: '/landing/nuxify-box.svg' },
       {
         rel: 'stylesheet',
         href:
