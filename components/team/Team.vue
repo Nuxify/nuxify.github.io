@@ -16,7 +16,7 @@
               <span class="d-block">
                 Tech Lead & Software Architect
               </span>
-              <span class="nuxify--text mt-5 mx-10 d-block text-justify">
+              <span class="mt-5 mx-10 d-block text-justify">
                 Karl leads the system design phase up to execution and
                 maintenance. He carefully architects the software's domain
                 models down to the best optimization it deserves. Karl loves
@@ -37,8 +37,8 @@
               <span class="d-block">
                 Lead Frontend & UI/UX Developer
               </span>
-              <span class="nuxify--text mt-5 mx-10 d-block text-justify">
-                Nickzy compares UI/UX as an extension of his creativeness. He is
+              <span class="mt-5 mx-10 d-block text-justify">
+                Nick compares UI/UX as an extension of his creativeness. He is
                 the man behind those impressive and modern UI/UX feels and eager
                 to learn more each day. He aims to be a JS/TS guru someday.
               </span>

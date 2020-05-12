@@ -10,8 +10,7 @@
     </div>
     <Maintainability />
     <Modern />
-    <div class="indexFile__worksteam">
-      <v-container></v-container>
+    <div id="Works" class="indexFile__worksteam">
       <Works />
       <Team />
     </div>
@@ -40,7 +39,7 @@ export default {
 
 <style scoped>
 .indexFile__worksteam {
-  height: 120vh;
+  height: 140vh;
 }
 .indexFile__container--header {
   height: 100vh;
