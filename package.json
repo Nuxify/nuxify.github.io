@@ -1,7 +1,7 @@
 {
-  "name": "naks.js",
+  "name": "nuxify",
   "version": "1.0.0",
-  "description": "A minimalistic Nuxt starter template using Vuetify and API Repository Pattern. Naks naman!",
+  "description": "Writing Software Like It's Ours",
   "author": "Karl Anthony Baluyot",
   "private": true,
   "scripts": {

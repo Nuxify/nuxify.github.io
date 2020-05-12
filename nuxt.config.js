@@ -4,23 +4,19 @@ require('dotenv').config()
 
 export default {
   mode: 'universal',
-  server: {
-    port: process.env.APP_PORT,
-    host: process.env.APP_HOST
-  },
   /*
    ** Headers of the page
    */
   head: {
-    titleTemplate: '%s - ' + process.env.npm_package_name,
-    title: process.env.npm_package_name || '',
+    titleTemplate: "Nuxify | Writing Software Like It's Ours",
+    title: "Nuxify | Writing Software Like It's Ours",
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       {
         hid: 'description',
         name: 'description',
-        content: process.env.npm_package_description || ''
+        content: "Writing Software Like It's Ours"
       }
     ],
     link: [
