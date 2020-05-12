@@ -14,12 +14,12 @@
         <div class="mt-10"></div>
         We are a team of startups-loving individuals eager to help you craft
         your product from ideas to realizations.
-        <div class="mt-10"></div>
+        <div class="mt-8"></div>
         <span class="innerHeader__why--text"
           >Why <span class="nuxify--text">Nuxify.dev</span>?</span
         >
       </span>
-      <div class="d-block pt-10 mt-10 innerHeader__scroll">
+      <div class="d-block mt-8 innerHeader__scroll">
         <div class="d-inline mx-auto nuxify--text">
           <span class="innerHeader__scroll--text">Scroll to proceed</span>
           <br />
@@ -42,7 +42,7 @@ export default {}
   font-style: normal;
   font-size: 67px;
   line-height: 71px;
-  margin-top: 200px;
+  margin-top: 88px;
 }
 #app .innerHeader__paragraph--text {
   width: 70%;
