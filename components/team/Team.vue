@@ -11,13 +11,16 @@
             <v-img src="/landing/carl.svg" class="team__img mx-auto"></v-img>
             <div class="d-block mt-5 text-center">
               <span class="team__name d-block">
-                Karl Anthony Baluyot
+                Engr. Karl Anthony Baluyot
               </span>
               <span class="d-block">
-                CO-Founder
+                Tech Lead & Software Architect
               </span>
-              <span class="nuxify--text mt-5 d-block">
-                Back-End Developer
+              <span class="nuxify--text mt-5 mx-10 d-block text-justify">
+                Karl leads the system design phase up to execution and
+                maintenance. He carefully architects the software's domain
+                models down to the best optimization it deserves. Karl loves
+                that goofy mascot of Golang.
               </span>
             </div>
           </div>
@@ -32,10 +35,12 @@
                 Monicar S. Gayo Jr.
               </span>
               <span class="d-block">
-                CO-Founder
+                Lead Frontend & UI/UX Developer
               </span>
-              <span class="nuxify--text mt-5 d-block">
-                Front-End Developer
+              <span class="nuxify--text mt-5 mx-10 d-block text-justify">
+                Nickzy compares UI/UX as an extension to his creativeness. He is
+                the man behind those impressive and modern UI/UX feels and eager
+                to learn more each day. He aims to be a JS/TS guru someday.
               </span>
             </div>
           </div>
