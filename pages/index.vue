@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="indexFile__parent--container">
     <div class="indexFile__container--header">
       <Header class="pa-0" />
       <v-container fill-height fill-width>
@@ -11,7 +11,6 @@
     <Maintainability />
     <Modern />
     <div id="Works" class="indexFile__worksteam">
-      <Works />
       <Team />
     </div>
     <Footer />
@@ -20,7 +19,7 @@
 
 <script>
 import { Header, InnerHeader } from '~/components/header'
-import { Maintainability, Modern, Works } from '~/components/offers'
+import { Maintainability, Modern } from '~/components/offers'
 import { Team } from '~/components/team'
 import { Footer } from '~/components'
 
@@ -30,7 +29,6 @@ export default {
     InnerHeader,
     Maintainability,
     Modern,
-    Works,
     Team,
     Footer
   }
@@ -39,13 +37,16 @@ export default {
 
 <style scoped>
 .indexFile__worksteam {
-  height: 140vh;
+  height: 90vh;
 }
 .indexFile__container--header {
   height: 100vh;
+}
+.indexFile__parent--container {
   background-image: url('/landing/backdrop.svg');
   background-position: center center;
-  background-size: cover;
+  background-repeat: repeat-y;
+  background-size: inherit;
   background-color: #fff;
 }
 .indexFile__container--header::after {

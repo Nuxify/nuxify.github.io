@@ -1,12 +1,12 @@
 <template>
-  <div id="Maintainability" class="maintainability__size">
+  <div id="Maintainability">
     <v-container fill-height>
       <v-row no-gutters>
         <v-col cols="6" xs="12" sm="12" md="6" lg="6">
           <v-img src="/landing/back-tools2.svg"></v-img>
         </v-col>
         <v-col cols="6" xs="12" sm="12" md="6" lg="6">
-          <div class="pl-5 d-flex align-center maintainability__flex">
+          <div class="pl-10 ml-5 d-flex align-center maintainability__flex">
             <div>
               <div class="maintainability__title nuxify--text">
                 Maintainability<br />
@@ -52,9 +52,6 @@ export default {}
 </script>
 
 <style scoped>
-#app .maintainability__size {
-  height: 100vh;
-}
 #app .maintainability__title {
   font-family: 'Arvo', serif !important;
   font-style: normal;
