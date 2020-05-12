@@ -13,7 +13,7 @@
               <span class="team__name d-block">
                 Engr. Karl Anthony Baluyot
               </span>
-              <span class="d-block">
+              <span class="nuxify--text d-block">
                 Tech Lead & Software Architect
               </span>
               <span class="mt-5 mx-10 d-block text-justify">
@@ -34,7 +34,7 @@
               <span class="team__name d-block">
                 Monicar S. Gayo Jr.
               </span>
-              <span class="d-block">
+              <span class="nuxify--text d-block">
                 Lead Frontend & UI/UX Developer
               </span>
               <span class="mt-5 mx-10 d-block text-justify">
