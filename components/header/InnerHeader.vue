@@ -39,7 +39,6 @@ export default {}
   font-style: normal;
   font-size: 67px;
   line-height: 71px;
-  margin-top: 88px;
 }
 #app .innerHeader__paragraph--text {
   width: 70%;

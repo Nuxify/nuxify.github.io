@@ -2,14 +2,19 @@
   <div>
     <div class="indexFile__container--header">
       <Header class="pa-0" />
-      <v-container>
-        <InnerHeader />
+      <v-container fill-height fill-width>
+        <div class="d-flex align-center mx-auto">
+          <InnerHeader />
+        </div>
       </v-container>
     </div>
     <Maintainability />
     <Modern />
-    <Works />
-    <Team />
+    <div class="indexFile__worksteam">
+      <v-container></v-container>
+      <Works />
+      <Team />
+    </div>
     <Footer />
   </div>
 </template>
@@ -34,7 +39,11 @@ export default {
 </script>
 
 <style scoped>
+.indexFile__worksteam {
+  height: 120vh;
+}
 .indexFile__container--header {
+  height: 100vh;
   background-image: url('/landing/backdrop.svg');
   background-position: center center;
   background-size: cover;
