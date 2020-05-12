@@ -1,17 +1,17 @@
 <template>
   <v-app-bar color="white" flat hide-on-scroll app>
-    <img src="/header/nuxify.dev.png" class="nuxify--logo" />
+    <img src="/landing/nuxify.dev.png" class="nuxify--logo" />
     <v-spacer />
-    <v-btn text class="text-capitalize subtitle-1">
+    <v-btn text class="text-capitalize font-weight-medium subtitle-1">
       <span>Home</span>
     </v-btn>
-    <v-btn text class="text-capitalize subtitle-1">
+    <v-btn text class="text-capitalize font-weight-medium subtitle-1">
       <span>Services</span>
     </v-btn>
-    <v-btn text class="text-capitalize subtitle-1">
+    <v-btn text class="text-capitalize font-weight-medium subtitle-1">
       <span>Our Works</span>
     </v-btn>
-    <v-btn text class="text-capitalize subtitle-1">
+    <v-btn text class="text-capitalize font-weight-medium subtitle-1">
       <span>Contact Us</span>
     </v-btn>
     <v-spacer />
