@@ -9,3 +9,27 @@
 #app td {
   font-family: 'Inter', sans-serif !important;
 }
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  html {
+    background-color: rgba(0, 0, 0, 0);
+    -webkit-background-clip: text;
+    /* uncomment following line to see the trick in actions */
+    /* -webkit-text-fill-color: transparent; */
+    transition: background-color 0.8s;
+  }
+  html:hover {
+    background-color: rgba(0, 0, 0, 0.18);
+  }
+  html::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  html::-webkit-scrollbar-track {
+    display: none;
+  }
+  html::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: inherit;
+  }
+}

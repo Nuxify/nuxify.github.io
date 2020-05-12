@@ -1,6 +1,6 @@
 <template>
   <div class="footer__container">
-    <v-container class="mt-10 py-10">
+    <v-container id="Message-Us" class="mt-10 py-10">
       <v-row no-gutters>
         <v-col cols="4" md="4" lg="4" class="white--text">
           <img src="/landing/nuxify.dev.png" class="nuxify--logo" />
@@ -18,6 +18,7 @@
           <v-row no-gutters>
             <v-col cols="12" sm="6" md="6" class="pr-2">
               <v-text-field
+                v-model="name"
                 label="Full Name"
                 :dark="true"
                 dense
@@ -27,6 +28,7 @@
             </v-col>
             <v-col cols="12" sm="6" md="6">
               <v-text-field
+                v-model="email"
                 label="Email"
                 :dark="true"
                 dense
@@ -35,13 +37,22 @@
               ></v-text-field>
             </v-col>
             <v-textarea
+              v-model="message"
               outlined
               name="input-7-4"
               label="Say something..."
               :dark="true"
               color="nuxify"
             ></v-textarea>
-            <v-btn block color="nuxify" :dark="true">Go</v-btn>
+            <v-btn
+              block
+              color="nuxify"
+              :href="
+                `mailto:${to}?from=${from}&subject=${name}&body=${message}`
+              "
+              :dark="true"
+              >Go</v-btn
+            >
           </v-row>
         </v-col>
       </v-row>
@@ -50,7 +61,16 @@
 </template>
 
 <script>
-export default {}
+export default {
+  data() {
+    return {
+      to: 'nuxify.dev@gmail.com',
+      from: '',
+      name: '',
+      message: ''
+    }
+  }
+}
 </script>
 
 <style scoped>

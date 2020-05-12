@@ -1,5 +1,5 @@
 <template>
-  <v-container class="mt-10">
+  <v-container id="Team" class="mt-10">
     <div class="team__title d-block text-center black--text">
       Meet the
       <span class="team__title nuxify--text">Team</span>
