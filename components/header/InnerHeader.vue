@@ -3,7 +3,10 @@
     <div
       class="mx-auto d-block text-center font-weight-bold innerHeader__tagline--text"
     >
-      Writing Software<br />Like It's Ours
+      Writing Software<br />Like It's Ours<span
+        class="nuxify--text font-weight-regular"
+        >|</span
+      >
     </div>
     <div class="mt-5 mx-auto d-block text-center innerHeader__paragraph--text">
       <span>
