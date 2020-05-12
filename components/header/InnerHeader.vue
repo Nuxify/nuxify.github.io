@@ -4,7 +4,9 @@
       class="mx-auto d-block text-center font-weight-bold innerHeader__tagline--text"
     >
       Writing Software<br />Like It's Ours
-      <div class="innerHeader__tagline--keyup ml-n5 d-inline">|</div>
+      <div class="innerHeader__tagline--keyup ml-n5 nuxify--text d-inline">
+        |
+      </div>
     </div>
     <div class="mt-5 mx-auto d-block text-center innerHeader__paragraph--text">
       <span>
@@ -79,19 +81,24 @@ export default {}
   }
 }
 .innerHeader__tagline--keyup {
+  animation: blinkingText 1.2s infinite;
   font-weight: 400;
-  animation: fade 1s ease-in-out infinite;
-  margin-left: 9px;
 }
-
-@keyframes fade {
-  0%,
-  100% {
-    opacity: 1;
+@keyframes blinkingText {
+  0% {
+    color: #ed1967;
   }
-
-  50% {
-    opacity: 0;
+  49% {
+    color: #ed1967;
+  }
+  60% {
+    color: transparent;
+  }
+  99% {
+    color: transparent;
+  }
+  100% {
+    color: #ed1967;
   }
 }
 </style>
