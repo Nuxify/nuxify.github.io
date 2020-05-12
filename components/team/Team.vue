@@ -11,7 +11,7 @@
             <v-img src="/landing/carl.svg" class="team__img mx-auto"></v-img>
             <div class="d-block mt-5 text-center">
               <span class="team__name d-block">
-                Engr. Karl Anthony Baluyot
+                Engr. Karl Anthony B. Baluyot
               </span>
               <span class="nuxify--text d-block">
                 Tech Lead & Software Architect
