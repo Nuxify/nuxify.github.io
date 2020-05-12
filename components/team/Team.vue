@@ -38,7 +38,7 @@
                 Lead Frontend & UI/UX Developer
               </span>
               <span class="nuxify--text mt-5 mx-10 d-block text-justify">
-                Nickzy compares UI/UX as an extension to his creativeness. He is
+                Nickzy compares UI/UX as an extension of his creativeness. He is
                 the man behind those impressive and modern UI/UX feels and eager
                 to learn more each day. He aims to be a JS/TS guru someday.
               </span>
