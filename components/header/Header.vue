@@ -3,7 +3,7 @@
     <v-row class="pa-10 mx-10" no-gutters>
       <img src="/landing/nuxify.dev.png" class="nuxify--logo" />
       <v-spacer />
-      <v-btn text class="text-capitalize font-weight-medium subtitle-1">
+      <v-btn to="/" text class="text-capitalize font-weight-medium subtitle-1">
         <span>Home</span>
       </v-btn>
       <v-btn
