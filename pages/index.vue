@@ -9,7 +9,7 @@
 </template>
 
 <script>
-import { Header, InnerHeader } from '~/components/landing'
+import { Header, InnerHeader } from '~/components/header'
 export default {
   components: {
     Header,
@@ -20,7 +20,7 @@ export default {
 
 <style scoped>
 .indexFile__container--header {
-  background-image: url(/landing/backdrop.svg);
+  background-image: url('/header/backdrop.svg');
   background-position: center center;
   background-size: cover;
   background-color: #fff;

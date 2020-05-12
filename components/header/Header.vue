@@ -1,6 +1,6 @@
 <template>
   <v-app-bar color="white" flat hide-on-scroll app>
-    <img src="/landing/nuxify.dev.png" class="nuxify--logo" />
+    <img src="/header/nuxify.dev.png" class="nuxify--logo" />
     <v-spacer />
     <v-btn text class="text-capitalize subtitle-1">
       <span>Home</span>
