@@ -13,7 +13,7 @@
           :order="$vuetify.breakpoint.smAndDown ? 2 : 1"
         >
           <img
-            src="/landing/nuxify.dev.png"
+            src="/landing/nuxify.svg"
             class="nuxify--logo"
             :class="{ 'mt-10 mb-5': $vuetify.breakpoint.smAndDown }"
           />

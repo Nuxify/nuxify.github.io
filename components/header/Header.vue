@@ -25,7 +25,7 @@
         </v-btn>
         <a href="/">
           <img
-            src="/landing/nuxify.dev.png"
+            src="/landing/nuxify.svg"
             :class="
               $vuetify.breakpoint.smAndDown
                 ? 'nuxify__logo--big'

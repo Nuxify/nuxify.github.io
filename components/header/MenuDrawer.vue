@@ -3,7 +3,7 @@
     <v-row class="align-center pa-5" no-gutters>
       <a href="/">
         <img
-          src="/landing/nuxify.dev.png"
+          src="/landing/nuxify.svg"
           :class="
             $vuetify.breakpoint.smAndDown
               ? 'nuxify__logo--big'

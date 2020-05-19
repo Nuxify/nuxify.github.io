@@ -43,7 +43,7 @@ export default {
 }
 @media only screen and (max-width: 375px) {
   .indexFile__container--header {
-    margin-top: 150px;
+    margin-top: 90px;
     height: unset !important;
   }
 }
