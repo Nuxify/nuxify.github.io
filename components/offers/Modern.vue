@@ -1,14 +1,24 @@
 <template>
-  <div id="Modern" class="modern__size">
-    <v-container fill-height>
+  <div id="Modern">
+    <v-container class="mt-10" fill-height>
       <v-row no-gutters>
-        <v-col cols="6" xs="12" sm="12" md="6" lg="6">
-          <div class="pl-5 d-flex align-center maintainability__flex">
+        <v-col
+          :order="$vuetify.breakpoint.smOnly ? 2 : 1"
+          cols="12"
+          xs="12"
+          sm="12"
+          md="6"
+          lg="6"
+        >
+          <div
+            class="d-flex align-center maintainability__flex"
+            :class="$vuetify.breakpoint.smOnly ? 'pl-10 ml-5' : 'pl-5'"
+          >
             <div>
               <div class="maintainability__title nuxify--text">
                 Modern designs
                 <span class="maintainability__title black--text"
-                  >for <br />
+                  >for <br v-if="$vuetify.breakpoint.smAndUp" />
                   modern solutions</span
                 >
               </div>
@@ -29,7 +39,7 @@
                   <li>Tailwind</li>
                   <li>Ant</li>
                 </ul>
-                <ul class="ml-10">
+                <ul :class="{ 'ml-10': $vuetify.breakpoint.smAndUp }">
                   <li>Quasar</li>
                   <li>Gridsome</li>
                   <li>Illustrator</li>
@@ -40,7 +50,7 @@
             </div>
           </div>
         </v-col>
-        <v-col cols="6" xs="12" sm="12" md="6" lg="6">
+        <v-col cols="12" xs="12" sm="12" md="6" lg="6">
           <v-img src="/landing/front-tools.svg"></v-img>
         </v-col>
       </v-row>

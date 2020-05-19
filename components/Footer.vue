@@ -2,8 +2,21 @@
   <div class="footer__container">
     <v-container id="Message-Us" class="mt-10 py-10">
       <v-row no-gutters>
-        <v-col cols="4" md="4" lg="4" class="white--text">
-          <img src="/landing/nuxify.dev.png" class="nuxify--logo" />
+        <v-col
+          cols="12"
+          xs="12"
+          sm="12"
+          md="4"
+          lg="4"
+          class="white--text"
+          :class="{ 'text-center': $vuetify.breakpoint.smAndDown }"
+          :order="$vuetify.breakpoint.smAndDown ? 2 : 1"
+        >
+          <img
+            src="/landing/nuxify.dev.png"
+            class="nuxify--logo"
+            :class="{ 'mt-10 mb-5': $vuetify.breakpoint.smAndDown }"
+          />
           <span class="d-block touch__title">Get in touch</span>
           <span class="d-block"
             ><v-icon color="white">mdi-email</v-icon> nuxify.dev@gmail.com</span
@@ -12,10 +25,24 @@
             ><v-icon color="white">mdi-github</v-icon> github.com/Nuxify</span
           >
         </v-col>
-        <v-col cols="8" md="8" lg="8" class="white--text">
+        <v-col
+          cols="12"
+          xs="12"
+          sm="12"
+          md="8"
+          lg="8"
+          class="white--text"
+          :class="{ 'px-10': $vuetify.breakpoint.xsOnly }"
+          :order="$vuetify.breakpoint.smAndDown ? 1 : 2"
+        >
           <span class="d-block touch__title">Message Us</span>
           <v-row no-gutters>
-            <v-col cols="12" sm="6" md="6" class="pr-2">
+            <v-col
+              cols="12"
+              sm="6"
+              md="6"
+              :class="$vuetify.breakpoint.smAndUp ? 'pr-2' : 'pr-0'"
+            >
               <v-text-field
                 v-model="name"
                 label="Full Name"
@@ -53,6 +80,9 @@
               >Go</v-btn
             >
           </v-row>
+        </v-col>
+        <v-col order="last" cols="12" md="12" lg="12" class="mt-10 text-center">
+          <span class="grey--text">&copy; Copyright 2020, Nuxify</span>
         </v-col>
       </v-row>
     </v-container>

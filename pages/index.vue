@@ -10,7 +10,7 @@
     </div>
     <Maintainability />
     <Modern />
-    <div id="Works" class="indexFile__worksteam">
+    <div id="Works">
       <Team />
     </div>
     <Footer />
@@ -35,10 +35,21 @@ export default {
 }
 </script>
 
-<style scoped>
-.indexFile__worksteam {
-  height: 90vh;
+<style>
+@media only screen and (max-width: 428px) {
+  .indexFile__container--header {
+    height: unset !important;
+  }
 }
+@media only screen and (max-width: 375px) {
+  .indexFile__container--header {
+    margin-top: 150px;
+    height: unset !important;
+  }
+}
+</style>
+
+<style scoped>
 .indexFile__container--header {
   height: 100vh;
 }
@@ -48,13 +59,5 @@ export default {
   background-repeat: repeat-y;
   background-size: inherit;
   background-color: #fff;
-}
-.indexFile__container--header::after {
-  content: '';
-  position: absolute;
-  margin-top: -120px;
-  width: 100%;
-  height: 120px;
-  background: linear-gradient(0, white 34%, transparent);
 }
 </style>

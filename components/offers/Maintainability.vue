@@ -1,12 +1,18 @@
 <template>
   <div id="Maintainability">
     <v-container fill-height>
-      <v-row no-gutters>
-        <v-col cols="6" xs="12" sm="12" md="6" lg="6">
+      <v-row
+        :class="{ 'mt-10 pt-10': $vuetify.breakpoint.mdAndDown }"
+        no-gutters
+      >
+        <v-col cols="12" xs="12" sm="12" md="6" lg="6">
           <v-img src="/landing/back-tools2.svg"></v-img>
         </v-col>
-        <v-col cols="6" xs="12" sm="12" md="6" lg="6">
-          <div class="pl-10 ml-5 d-flex align-center maintainability__flex">
+        <v-col cols="12" xs="12" sm="12" md="6" lg="6">
+          <div
+            :class="$vuetify.breakpoint.smAndUp ? 'pl-10 ml-5' : 'ml-5'"
+            class="d-flex align-center maintainability__flex"
+          >
             <div>
               <div class="maintainability__title nuxify--text">
                 Maintainability<br />
@@ -31,7 +37,7 @@
                   <li>VueJS</li>
                   <li>NativeScript</li>
                 </ul>
-                <ul class="ml-10">
+                <ul :class="{ 'ml-10': $vuetify.breakpoint.smAndUp }">
                   <li>Apache Kafka</li>
                   <li>NoSQLs</li>
                   <li>RDBMS</li>
