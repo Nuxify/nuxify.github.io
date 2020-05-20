@@ -17,6 +17,7 @@
     /* uncomment following line to see the trick in actions */
     /* -webkit-text-fill-color: transparent; */
     transition: background-color 0.8s;
+    scroll-behavior: smooth;
   }
   html:hover {
     background-color: rgba(0, 0, 0, 0.18);
