@@ -82,7 +82,7 @@
           </v-row>
         </v-col>
         <v-col order="last" cols="12" md="12" lg="12" class="mt-10 text-center">
-          <span class="grey--text">&copy; Copyright 2020, Nuxify</span>
+          <span class="grey--text">&copy; Maintained by Nuxify Development Team</span>
         </v-col>
       </v-row>
     </v-container>
