@@ -3,12 +3,12 @@
     <v-container class="mt-10" fill-height>
       <v-row no-gutters>
         <v-col
-          :order="$vuetify.breakpoint.smOnly ? 2 : 1"
           cols="12"
           xs="12"
           sm="12"
           md="6"
           lg="6"
+          :order="$vuetify.breakpoint.smAndDown ? 2 : 1"
         >
           <div
             class="d-flex align-center maintainability__flex"
@@ -50,7 +50,14 @@
             </div>
           </div>
         </v-col>
-        <v-col cols="12" xs="12" sm="12" md="6" lg="6">
+        <v-col
+          cols="12"
+          xs="12"
+          sm="12"
+          md="6"
+          lg="6"
+          :order="$vuetify.breakpoint.smAndDown ? 1 : 2"
+        >
           <v-img src="/landing/front-tools.svg"></v-img>
         </v-col>
       </v-row>
