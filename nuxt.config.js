@@ -2,21 +2,57 @@ import colors from 'vuetify/es5/util/colors'
 
 require('dotenv').config()
 
+const APP_NAME = "Nuxify | Writing Software Like It's Ours"
+const APP_DESCRIPTION = "Writing Software Like It's Ours"
+const APP_URL = 'https://nuxify.tech'
+
 export default {
   mode: 'universal',
   /*
    ** Headers of the page
    */
   head: {
-    titleTemplate: "Nuxify | Writing Software Like It's Ours",
-    title: "Nuxify | Writing Software Like It's Ours",
+    titleTemplate: APP_DESCRIPTION,
+    title: APP_DESCRIPTION,
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       {
         hid: 'description',
         name: 'description',
-        content: "Writing Software Like It's Ours"
+        content: APP_DESCRIPTION
+      },
+      // OG Tag setup
+      // https://vue-meta.nuxtjs.org/api/#meta
+      {
+        property: 'og:type',
+        content: 'website',
+        vmid: 'og:type'
+      },
+      {
+        property: 'og:title',
+        content: APP_NAME,
+        vmid: 'og:title'
+      },
+      {
+        property: 'og:description',
+        content: APP_DESCRIPTION,
+        vmid: 'og:description'
+      },
+      {
+        property: 'og:site_name',
+        content: APP_URL,
+        vmid: 'og:site_name'
+      },
+      {
+        property: 'og:url',
+        content: APP_URL,
+        vmid: 'og:url'
+      },
+      {
+        property: 'og:image',
+        content: APP_URL + '/landing/nuxify-box.svg',
+        vmid: 'og:image'
       }
     ],
     link: [
@@ -75,6 +111,22 @@ export default {
       common: {
         Accept: 'application/json, text/plain, */*'
       }
+    }
+  },
+  /**
+   *  PWA module configuration
+   *  https://pwa.nuxtjs.org/setup.html
+   */
+  pwa: {
+    meta: {
+      title: APP_NAME
+    },
+    manifest: {
+      name: APP_NAME,
+      short_name: APP_NAME,
+      description: APP_DESCRIPTION,
+      start_url: APP_URL,
+      lang: 'en'
     }
   },
   /*
