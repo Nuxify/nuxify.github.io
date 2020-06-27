@@ -4,7 +4,7 @@
       class="mx-auto d-block text-center font-weight-bold innerHeader__tagline--text"
     >
       Writing Software<br />Like It's Ours
-      <div class="innerHeader__tagline--keyup ml-n5 nuxify--text d-inline">
+      <div class="innerHeader__tagline--keyup ml-n5 d-inline">
         |
       </div>
     </div>
