@@ -12,8 +12,8 @@ export default {
    ** Headers of the page
    */
   head: {
-    titleTemplate: APP_DESCRIPTION,
-    title: APP_DESCRIPTION,
+    titleTemplate: APP_NAME,
+    title: APP_NAME,
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
