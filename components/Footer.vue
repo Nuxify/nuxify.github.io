@@ -19,7 +19,7 @@
           />
           <span class="d-block touch__title">Get in touch</span>
           <span class="d-block"
-            ><v-icon color="white">mdi-email</v-icon> nuxify.dev@gmail.com</span
+            ><v-icon color="white">mdi-email</v-icon> business@nuxify.tech</span
           >
           <span class="d-block mt-2"
             ><v-icon color="white">mdi-github</v-icon> github.com/Nuxify</span
@@ -95,7 +95,7 @@
 export default {
   data() {
     return {
-      to: 'nuxify.dev@gmail.com',
+      to: 'business@nuxify.tech',
       from: '',
       name: '',
       message: '',

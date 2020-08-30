@@ -68,7 +68,7 @@
         </v-btn>
         <v-spacer />
         <v-btn
-          href="mailto:nuxify.dev@gmail.com"
+          href="mailto:business@nuxify.tech"
           :large="$vuetify.breakpoint.smAndDown"
           color="nuxify"
         >
